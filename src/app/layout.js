@@ -21,12 +21,12 @@ export default function RootLayout({ children }) {
         baseTheme: dark,
       }}
     >
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning="true">
         <head>
           <link rel="icon" href="/logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
-        {/* data-new-gr-c-s-check-loaded=&rdquo;14.1092.0&quot;
+          {/* data-new-gr-c-s-check-loaded=&rdquo;14.1092.0&quot;
         -data-gr-ext-installed=&rdquo;&rdquo; */}
           <ThemeProvider
             attribute="class"
